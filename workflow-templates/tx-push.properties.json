@@ -1,0 +1,13 @@
+{
+    "name": "OpenMRS TX Push Workflow",
+    "description": "OpenMRS workflow to update Transifex on pushes to the default branch (requires working Transifex setup)",
+    "iconName": "transifex",
+    "categories": [
+        "Automation",
+        "i18n",
+        "Transifex"
+    ],
+    "filePatterns": [
+        ".tx/config"
+    ]
+}

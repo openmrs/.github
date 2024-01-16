@@ -1,0 +1,13 @@
+{
+    "name": "OpenMRS TX Pull Workflow",
+    "description": "OpenMRS workflow to pull changes from Transifex daily and generate a PR (requires working Transifex setup)",
+    "iconName": "transifex",
+    "categories": [
+        "Automation",
+        "i18n",
+        "Transifex"
+    ],
+    "filePatterns": [
+        ".tx/config"
+    ]
+}
