@@ -10,4 +10,4 @@
 
 OpenMRS is an <abbr title="MPL-2.0">open-source<abbr> medical record system and community that is bringing people together to save lives!
 
-Join us to support our open source community! [Work openings in 2024 for our Global Support Team here]([url](https://talk.openmrs.org/t/work-opportunities-at-openmrs/41916)https://talk.openmrs.org/t/work-opportunities-at-openmrs/41916). 
+Join us to support our open source community! [Work openings in 2024 for our Global Support Team here](https://talk.openmrs.org/t/work-opportunities-at-openmrs/41916). 
