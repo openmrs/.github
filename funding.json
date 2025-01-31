@@ -5,18 +5,20 @@
         "role": "owner",
         "name": "OpenMRS Inc.",
         "email": "grants@openmrs.org",
-        "description": "OpenMRS, Inc. is a Registered Charity, 501(c)3 non-profit organization whose mission is to improve healthcare delivery in resource-constrained environments by coordinating a global community that creates a robust, scalable, user-driven, open-source medical record system platform. As a recognized Global Good, OpenMRS continues to advance country-led, sustainable digital health transformation by strengthening local informatics capacity through fellowships, mentorships and workshops. Since OpenMRS’ launch in 2004, more than 8,100 healthcare facilities in over 80 countries are using the OpenMRS platform to provide improved healthcare to over 22 million patients.",
+        "description": "OpenMRS, Inc. is a Registered Charity, 501(c)3 non-profit organization whose mission is to improve healthcare delivery in resource-constrained environments by coordinating a global community that creates a robust, scalable, user-driven, open-source medical record system platform. As a recognized Global Good, OpenMRS continues to advance country-led, sustainable digital health transformation by strengthening local informatics capacity through fellowships, mentorships and workshops. Since OpenMRS’ launch in 2004, more than 8,100 healthcare facilities in over 80 countries are using the OpenMRS platform to provide improved healthcare to over 22 million patients. The OpenMRS community continues its unwavering commitment to deliver high quality, scalable and sustainable software and envisions a world where: 1) Models exist to implement digital health in a way that decreases costs, increases capacity, and lessens the disparities between wealthy and resource-poor environments. 2) Open standards enable people to use digital health systems to share information and reduce effort. 3) Concepts and processes can be easily shared to enable healthcare professionals and patients to work together more effectively.",
         "webpageUrl": {
-            "url": "https://github.com/openmrs"
+            "url": "https://openmrs.org/openmrs-inc",
+            "wellKnown": "https://openmrs.org/openmrs-inc/.well-known/funding-manifest-urls"
         }
     },
     "projects": [
         {
             "guid": "openmrs",
             "name": "OpenMRS",
-            "description": "OpenMRS is an open source Medical Records System designed for low-resource settings, supported and implemented by a global community of healthcare professionals, informaticists, and engineers. Our software is used as part of the national public health system in over 80 countries by Ministries of Health and their partners for over 22 million patients in the world’s most difficult healthcare environments.",
+            "description": "OpenMRS is an open source Medical Records System designed for low-resource settings, supported and implemented by a global community of healthcare professionals, informaticists, and engineers. Our software is used as part of the national public health system in over 80 countries by Ministries of Health and their partners for over 22 million patients in the world’s most difficult healthcare environments - including across India. OpenMRS is used in caring for the world’s most vulnerable populations, such as people living with stigmatized infectious diseases, and others in poverty. Our software is free to use and protects health systems from vendor lock-in. Thousands of studies have been conducted using OpenMRS, with notable research impact to multiple disease fields such as Maternal Health, HIV/AIDS, Tuberculosis, Malaria, Ebola, and more: https://om.rs/evidence. Learn more about our impact metrics at: https://om.rs/impact We’d love to talk to you about how you can help us sustain and grow our community, and our impact!",
             "webpageUrl": {
-                "url": "https://github.com/openmrs"
+                "url": "https://openmrs.org",
+                "wellKnown": "https://openmrs.org/.well-known/funding-manifest-urls"
             },
             "repositoryUrl": {
                 "url": "https://github.com/openmrs"
@@ -61,7 +63,7 @@
                 "guid": "global-support-team-plan",
                 "status": "active",
                 "name": "Global Support Team plan",
-                "description": "One of the ways we support the OpenMRS Community is by nurturing a small Global Support Team. This team provides critical support to members through community management, event planning, communications, developer mentorship, architectural leadership, complex code reviews, and program management.",
+                "description": "One of the ways we support the OpenMRS Community is by nurturing a small Global Support Team. We find this small team makes a big difference in inspiring, coordinating, and up-skilling our global network, so that we can be an ever-more-sustainable community. We provide critical support to members through community management, event planning, communications, developer mentorship, architectural leadership, complex code reviews, and program management. We onboard new members, help organization members collaborate together, and raise the visibility of our community’s achievements. Our technical support members help contributors to develop their skill sets through peer coaching, support hours, academy content, and virtual or in-person hackathons. This model also has an extremely cost effective ROI: We estimate our cost per year per beneficiary is $0.04 USD (4 cents) for the central OpenMRS software and community stewardship.",
                 "amount": 50000,
                 "currency": "USD",
                 "frequency": "one-time",
@@ -71,7 +73,7 @@
                 "guid": "fellowship-plan",
                 "status": "active",
                 "name": "Fellowship plan",
-                "description": "The OpenMRS Fellowship Program expands our community’s capacity by providing a practical opportunity for promising contributors to develop advanced skill sets. One junior Fellowship for 6-months is $10,000 USD; one more senior Fellowship for 6-months is around $25,000 USD.",
+                "description": "The OpenMRS Fellowship Program expands our community’s capacity by providing a practical opportunity for promising contributors to develop advanced skill sets (e.g. development, community, terminology, quality assurance, etc), with the added benefit of a funded stipend. To make the experience more meaningful, we aim to pair each fellow with a Fellow Mentor and an active squad or project. Most fellowship opportunities are 6-9 months long. Many of our successful Fellowship Graduates are recruited by Community Organizations, where they become key ongoing contributors embedding OpenMRS’ knowledge and values in their home organization. This program’s popularity generally exceeds the stipend funding available, but it has been an important mechanism for helping junior talent grow into the next stage in their career. One junior Fellowship for 6-months is $10,000 USD; one more senior Fellowship for 6-months is around $25,000 USD. More information about our Fellowship program is available on our wiki here: https://om.rs/fellowships",
                 "amount": 10000,
                 "currency": "USD",
                 "frequency": "one-time",
@@ -81,7 +83,7 @@
                 "guid": "travel-scholarship-plan",
                 "status": "active",
                 "name": "Travel Scholarship plan",
-                "description": "Many of our amazing, top contributors need financial assistance to attend OpenMRS events. OpenMRS Inc. sponsors contributors with travel grants to attend OpenMRS events such as conferences and hackathons.",
+                "description": "Many of our amazing, top contributors need financial assistance to attend OpenMRS events. One of the ways that OpenMRS Inc. supports the OpenMRS open source community is by sponsoring contributors with travel grants to attend OpenMRS events such as conferences and hackathons. The sponsored travel is meant to help those that would like to attend events but are unable to do so for financial reasons. All OpenMRS contributors are encouraged to apply! More information about this program is available on our wiki here: https://om.rs/scholarships",
                 "amount": 5000,
                 "currency": "USD",
                 "frequency": "one-time",
