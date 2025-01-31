@@ -7,8 +7,7 @@
         "email": "grants@openmrs.org",
         "description": "OpenMRS, Inc. is a Registered Charity, 501(c)3 non-profit organization whose mission is to improve healthcare delivery in resource-constrained environments by coordinating a global community that creates a robust, scalable, user-driven, open-source medical record system platform. As a recognized Global Good, OpenMRS continues to advance country-led, sustainable digital health transformation by strengthening local informatics capacity through fellowships, mentorships and workshops. Since OpenMRS’ launch in 2004, more than 8,100 healthcare facilities in over 80 countries are using the OpenMRS platform to provide improved healthcare to over 22 million patients. The OpenMRS community continues its unwavering commitment to deliver high quality, scalable and sustainable software and envisions a world where: 1) Models exist to implement digital health in a way that decreases costs, increases capacity, and lessens the disparities between wealthy and resource-poor environments. 2) Open standards enable people to use digital health systems to share information and reduce effort. 3) Concepts and processes can be easily shared to enable healthcare professionals and patients to work together more effectively.",
         "webpageUrl": {
-            "url": "https://openmrs.org/openmrs-inc",
-            "wellKnown": "https://openmrs.org/openmrs-inc/.well-known/funding-manifest-urls"
+            "url": "https://github.com/openmrs"
         }
     },
     "projects": [
@@ -17,8 +16,7 @@
             "name": "OpenMRS",
             "description": "OpenMRS is an open source Medical Records System designed for low-resource settings, supported and implemented by a global community of healthcare professionals, informaticists, and engineers. Our software is used as part of the national public health system in over 80 countries by Ministries of Health and their partners for over 22 million patients in the world’s most difficult healthcare environments - including across India. OpenMRS is used in caring for the world’s most vulnerable populations, such as people living with stigmatized infectious diseases, and others in poverty. Our software is free to use and protects health systems from vendor lock-in. Thousands of studies have been conducted using OpenMRS, with notable research impact to multiple disease fields such as Maternal Health, HIV/AIDS, Tuberculosis, Malaria, Ebola, and more: https://om.rs/evidence. Learn more about our impact metrics at: https://om.rs/impact We’d love to talk to you about how you can help us sustain and grow our community, and our impact!",
             "webpageUrl": {
-                "url": "https://openmrs.org",
-                "wellKnown": "https://openmrs.org/.well-known/funding-manifest-urls"
+                "url": "https://github.com/openmrs"
             },
             "repositoryUrl": {
                 "url": "https://github.com/openmrs"
