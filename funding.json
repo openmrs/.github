@@ -1,0 +1,91 @@
+{
+    "version": "v1.0.0",
+    "entity": {
+        "type": "organisation",
+        "role": "owner",
+        "name": "OpenMRS Inc.",
+        "email": "grants@openmrs.org",
+        "description": "OpenMRS, Inc. is a Registered Charity, 501(c)3 non-profit organization whose mission is to improve healthcare delivery in resource-constrained environments by coordinating a global community that creates a robust, scalable, user-driven, open-source medical record system platform. As a recognized Global Good, OpenMRS continues to advance country-led, sustainable digital health transformation by strengthening local informatics capacity through fellowships, mentorships and workshops. Since OpenMRS’ launch in 2004, more than 8,100 healthcare facilities in over 80 countries are using the OpenMRS platform to provide improved healthcare to over 22 million patients.",
+        "webpageUrl": {
+            "url": "https://openmrs.org/openmrs-inc"
+        }
+    },
+    "projects": [
+        {
+            "guid": "openmrs",
+            "name": "OpenMRS",
+            "description": "OpenMRS is an open source Medical Records System designed for low-resource settings, supported and implemented by a global community of healthcare professionals, informaticists, and engineers. Our software is used as part of the national public health system in over 80 countries by Ministries of Health and their partners for over 22 million patients in the world’s most difficult healthcare environments.",
+            "webpageUrl": {
+                "url": "https://openmrs.org"
+            },
+            "repositoryUrl": {
+                "url": "https://github.com/openmrs",
+                "wellKnown": "https://github.com/openmrs/openmrs-core"
+            },
+            "licenses": ["spdx:MPL-2.0"],
+            "tags": [
+                "health",
+                "healthcare",
+                "data",
+                "digital-health",
+                "public-health",
+                "digital-public-infrastructure",
+                "electronic-health-record",
+                "electronic-medical-record"
+            ]
+        }
+    ],
+    "funding": {
+        "channels": [
+            {
+                "guid": "openmrs-paypal",
+                "type": "payment-provider",
+                "address": "https://om.rs/paypal",
+                "description": "PayPal"
+            },
+            {
+                "guid": "openmrs-stripe",
+                "type": "payment-provider",
+                "address": "https://om.rs/stripe",
+                "description": "Stripe"
+            },
+            {
+                "guid": "openmrs-bank",
+                "type": "bank",
+                "description": "Please contact us for bank details at grants@openmrs.org"
+            }
+        ],
+        "plans": [
+            {
+                "guid": "global-support-team-plan",
+                "status": "active",
+                "name": "Global Support Team plan",
+                "description": "One of the ways we support the OpenMRS Community is by nurturing a small Global Support Team. This team provides critical support to members through community management, event planning, communications, developer mentorship, architectural leadership, complex code reviews, and program management.",
+                "amount": 50000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["openmrs-bank"]
+            },
+            {
+                "guid": "fellowship-plan",
+                "status": "active",
+                "name": "Fellowship plan",
+                "description": "The OpenMRS Fellowship Program expands our community’s capacity by providing a practical opportunity for promising contributors to develop advanced skill sets. One junior Fellowship for 6-months is $10,000 USD; one more senior Fellowship for 6-months is around $25,000 USD.",
+                "amount": 10000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["openmrs-paypal", "openmrs-stripe", "openmrs-bank"]
+            },
+            {
+                "guid": "travel-scholarship-plan",
+                "status": "active",
+                "name": "Travel Scholarship plan",
+                "description": "Many of our amazing, top contributors need financial assistance to attend OpenMRS events. OpenMRS Inc. sponsors contributors with travel grants to attend OpenMRS events such as conferences and hackathons.",
+                "amount": 5000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["openmrs-paypal", "openmrs-stripe", "openmrs-bank"]
+            }
+        ]
+    }
+}
