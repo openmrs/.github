@@ -7,7 +7,8 @@
         "email": "grants@openmrs.org",
         "description": "OpenMRS, Inc. is a Registered Charity, 501(c)3 non-profit organization whose mission is to improve healthcare delivery in resource-constrained environments by coordinating a global community that creates a robust, scalable, user-driven, open-source medical record system platform. As a recognized Global Good, OpenMRS continues to advance country-led, sustainable digital health transformation by strengthening local informatics capacity through fellowships, mentorships and workshops. Since OpenMRS’ launch in 2004, more than 8,100 healthcare facilities in over 80 countries are using the OpenMRS platform to provide improved healthcare to over 22 million patients.",
         "webpageUrl": {
-            "url": "https://openmrs.org/openmrs-inc"
+            "url": "https://openmrs.org/openmrs-inc",
+            "wellKnown": "https://github.com/openmrs/.github/blob/main/funding.json"
         }
     },
     "projects": [
