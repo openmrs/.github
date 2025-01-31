@@ -21,19 +21,20 @@
                 "wellKnown": "https://openmrs.org/.well-known/funding-manifest-urls"
             },
             "repositoryUrl": {
-                "url": "https://github.com/openmrs",
-                "wellKnown": "https://github.com/openmrs/.well-known/funding-manifest-urls"
+                "url": "https://github.com/openmrs"
             },
             "licenses": ["spdx:MPL-2.0"],
             "tags": [
                 "health",
+                "medical",
                 "healthcare",
                 "data",
                 "digital-health",
                 "public-health",
                 "digital-public-infrastructure",
                 "electronic-health-record",
-                "electronic-medical-record"
+                "electronic-medical-record",
+                "information-management"
             ]
         }
     ],
