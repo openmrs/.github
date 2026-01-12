@@ -1,6 +1,6 @@
 {
     "name": "OpenMRS TX Push Workflow",
-    "description": "OpenMRS workflow to update Transifex on pushes to the default branch (requires working Transifex setup)",
+    "description": "OpenMRS workflow to update Transifex on pushes to the default branch. Requires working Transifex setup and a TRANSIFEX_TOKEN.",
     "iconName": "transifex",
     "categories": [
         "Automation",

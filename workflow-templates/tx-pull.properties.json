@@ -1,6 +1,6 @@
 {
     "name": "OpenMRS TX Pull Workflow",
-    "description": "OpenMRS workflow to pull changes from Transifex daily and generate a PR (requires working Transifex setup)",
+    "description": "OpenMRS workflow to pull changes from Transifex daily and generate a PR. Requires a working Transifex setup and TRANSIFEX_TOKEN and OMRS_BOT_GH_TOKEN secrets.",
     "iconName": "transifex",
     "categories": [
         "Automation",
