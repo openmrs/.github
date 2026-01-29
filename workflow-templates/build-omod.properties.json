@@ -1,0 +1,13 @@
+{
+    "name": "OpenMRS Build Maven Module Workflow",
+    "description": "OpenMRS workflow to build a backend module via Maven",
+    "iconName": "octicon zap",
+    "categories": [
+        "Automation",
+        "Maven",
+        "OMOD"
+    ],
+    "filePatterns": [
+        "pom.xml"
+    ]
+}

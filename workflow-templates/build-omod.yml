@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: [$default-branch]
+  pull_request:
+    branches: [$default-branch]
+
+jobs:
+  build:
+    uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/build-backend-module.yml@main
+    with:
+      java_version: "[8]"
+      main_java_version: "8"
