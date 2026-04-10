@@ -6,7 +6,6 @@ group:
       openmrs/openmrs-esm-admin-tools
       openmrs/openmrs-esm-billing-app
       openmrs/openmrs-esm-chartsearchai
-      openmrs/openmrs-esm-clinical-views-builder
       openmrs/openmrs-esm-cohortbuilder-app
       openmrs/openmrs-esm-dispensing-app
       openmrs/openmrs-esm-draw-app
