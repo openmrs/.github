@@ -21,4 +21,4 @@ jobs:
           CONFIG_PATH: .github/template-sync-config.yml
           SKIP_PR: true
           COMMIT_PREFIX: "(chore) "
-          COMMIT_BODY: "Synch repo templates"
+          COMMIT_BODY: "Sync repo templates"
