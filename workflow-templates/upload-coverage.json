@@ -1,0 +1,14 @@
+{
+    "name": "OpenMRS Upload Codecov Workflow",
+    "description": "OpenMRS workflow to upload JaCoCo coverage to CodeCov",
+    "iconName": "octicon zap",
+    "categories": [
+        "Automation",
+        "Maven",
+        "Coverage",
+        "CodeCov"
+    ],
+    "filePatterns": [
+        "pom.xml"
+    ]
+}

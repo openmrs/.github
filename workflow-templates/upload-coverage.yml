@@ -1,0 +1,17 @@
+name: Upload Coverage
+
+on:
+  workflow_run:
+    workflows: ["Build with Maven"]  # must match the `name:` of the repo's build workflow
+    types: [completed]
+
+jobs:
+  upload:
+    # The upload workflow requires these; declare them so it works regardless of
+    # the repo's default token permissions.
+    permissions:
+      contents: read
+      actions: read
+      id-token: write
+      pull-requests: read
+    uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/upload-coverage.yml@main
