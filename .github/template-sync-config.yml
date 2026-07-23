@@ -1,7 +1,10 @@
 group:
+  # frontend (O3 / esm) repos
   - files:
       - source: templates/pull_request_template_frontend.md
         dest: .github/pull_request_template.md
+      - source: templates/SECURITY.md
+        dest: .github/SECURITY.md
     repos: |
       openmrs/openmrs-esm-admin-tools
       openmrs/openmrs-esm-billing-app
@@ -22,3 +25,99 @@ group:
       openmrs/openmrs-esm-template-app
       openmrs/openmrs-esm-user-dashboard-widgets
       openmrs/openmrs-esm-user-onboarding
+  
+  # backend (core + modules) repos
+  - files:
+      - source: templates/SECURITY.md
+        dest: .github/SECURITY.md
+    repos: |
+      openmrs/openmrs-core
+      openmrs/openmrs-module-addresshierarchy
+      openmrs/openmrs-module-adminui
+      openmrs/openmrs-module-allergyui
+      openmrs/openmrs-module-appframework
+      openmrs/openmrs-module-appointmentscheduling
+      openmrs/openmrs-module-appointmentschedulingui
+      openmrs/openmrs-module-appui
+      openmrs/openmrs-module-artemis
+      openmrs/openmrs-module-atlas
+      openmrs/openmrs-module-attachments
+      openmrs/openmrs-module-auditlog
+      openmrs/openmrs-module-auditlogweb
+      openmrs/openmrs-module-authentication
+      openmrs/openmrs-module-authenticationui
+      openmrs/openmrs-module-bedmanagement
+      openmrs/openmrs-module-billing
+      openmrs/openmrs-module-calculation
+      openmrs/openmrs-module-camel
+      openmrs/openmrs-module-chartsearchai
+      openmrs/openmrs-module-clientregistry
+      openmrs/openmrs-module-cohort
+      openmrs/openmrs-module-coreapps
+      openmrs/openmrs-module-cql
+      openmrs/openmrs-module-dataexchange
+      openmrs/openmrs-module-datafilter
+      openmrs/openmrs-module-dataintegrity
+      openmrs/openmrs-module-debezium
+      openmrs/openmrs-module-dhisconnector
+      openmrs/openmrs-module-dispensing
+      openmrs/openmrs-module-drools
+      openmrs/openmrs-module-ebolaexample
+      openmrs/openmrs-module-emrapi
+      openmrs/openmrs-module-event
+      openmrs/openmrs-module-exti18n
+      openmrs/openmrs-module-fhir2
+      openmrs/openmrs-module-formentryapp
+      openmrs/openmrs-module-htmlformentry
+      openmrs/openmrs-module-htmlformentryui
+      openmrs/openmrs-module-htmlwidgets
+      openmrs/openmrs-module-idgen
+      openmrs/openmrs-module-labonfhir
+      openmrs/openmrs-module-legacyui
+      openmrs/openmrs-module-mamba-core
+      openmrs/openmrs-module-mamba-etl
+      openmrs/openmrs-module-mdrtb
+      openmrs/openmrs-module-metadatadeploy
+      openmrs/openmrs-module-metadataexport
+      openmrs/openmrs-module-metadatamapping
+      openmrs/openmrs-module-metadatasharing
+      openmrs/openmrs-module-notifications
+      openmrs/openmrs-module-o3forms
+      openmrs/openmrs-module-oauth2login
+      openmrs/openmrs-module-omodreloader
+      openmrs/openmrs-module-openconceptlab
+      openmrs/openmrs-module-operationtheater
+      openmrs/openmrs-module-orderentryui
+      openmrs/openmrs-module-ordertemplates
+      openmrs/openmrs-module-owa
+      openmrs/openmrs-module-patientdocuments
+      openmrs/openmrs-module-patientflags
+      openmrs/openmrs-module-patientqueueing
+      openmrs/openmrs-module-patientqueueui
+      openmrs/openmrs-module-printer
+      openmrs/openmrs-module-privilegehelper
+      openmrs/openmrs-module-providermanagement
+      openmrs/openmrs-module-querystore
+      openmrs/openmrs-module-queue
+      openmrs/openmrs-module-radiology
+      openmrs/openmrs-module-radiologyapp
+      openmrs/openmrs-module-referencedemodata
+      openmrs/openmrs-module-referencemetadata
+      openmrs/openmrs-module-registrationapp
+      openmrs/openmrs-module-registrationcore
+      openmrs/openmrs-module-reporting
+      openmrs/openmrs-module-reportingcompatibility
+      openmrs/openmrs-module-reportingrest
+      openmrs/openmrs-module-reportingui
+      openmrs/openmrs-module-serialization.xstream
+      openmrs/openmrs-module-spa
+      openmrs/openmrs-module-spreadsheetimport
+      openmrs/openmrs-module-stockmanagement
+      openmrs/openmrs-module-sync
+      openmrs/openmrs-module-tasks
+      openmrs/openmrs-module-uicommons
+      openmrs/openmrs-module-uiframework
+      openmrs/openmrs-module-uilibrary
+      openmrs/openmrs-module-validation
+      openmrs/openmrs-module-webservices.rest
+      openmrs/openmrs-module-xforms
