@@ -11,4 +11,4 @@ Please include as much detail as possible: the steps to reproduce, the affected 
  
 Please don't test against any system holding real patient data.
  
-For our full vulnerability management process, severity targets, and disclosure steps, see [OpenMRS Security 101: Policies & Vulnerability Management](https://openmrs.atlassian.net/wiki/spaces/docs/pages/25477259/OpenMRS+Security+101+Policies+Vulnerability+Management).
+For our full vulnerability management process, severity targets, and disclosure steps, see [om.rs/security101](http://om.rs/security101).
