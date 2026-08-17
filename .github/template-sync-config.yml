@@ -21,15 +21,14 @@ group:
       openmrs/openmrs-esm-patient-management
       openmrs/openmrs-esm-stock-management
       openmrs/openmrs-esm-system-status
-      openmrs/openmrs-esm-task-list
       openmrs/openmrs-esm-template-app
       openmrs/openmrs-esm-user-dashboard-widgets
       openmrs/openmrs-esm-user-onboarding
   
   # backend (core + modules) repos
   - files:
-      - source: templates/SECURITY.md
-        dest: .github/SECURITY.md
+      - source: docs/SECURITY.md
+        dest: SECURITY.md
     repos: |
       openmrs/openmrs-core
       openmrs/openmrs-module-addresshierarchy

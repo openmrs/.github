@@ -11,4 +11,4 @@ Please include as much detail as possible: the steps to reproduce, the affected 
  
 Please don't test against any system holding real patient data.
  
-For our full vulnerability management process, severity targets, and disclosure steps, see [om.rs/security101](http://om.rs/security101).
+For our full vulnerability management process, severity targets, and disclosure steps, see [om.rs/security101](https://om.rs/security101).
