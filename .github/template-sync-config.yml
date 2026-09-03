@@ -22,7 +22,7 @@ group:
       openmrs/openmrs-esm-user-dashboard-widgets
       openmrs/openmrs-esm-user-onboarding
 
-  # OpenMRS repositories that have been active within roughly the last 6 months.
+  # OpenMRS repositories that have been active within roughly the last 24 months.
   # SECURITY.md is synced to these repositories to keep the security policy consistent
   # across actively maintained OpenMRS projects.
   - files:
