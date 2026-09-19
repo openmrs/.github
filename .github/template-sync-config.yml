@@ -16,6 +16,7 @@ group:
       openmrs/openmrs-esm-patient-chart
       openmrs/openmrs-esm-patient-communications
       openmrs/openmrs-esm-patient-management
+      openmrs/openmrs-esm-report-builder
       openmrs/openmrs-esm-stock-management
       openmrs/openmrs-esm-system-status
       openmrs/openmrs-esm-template-app
@@ -42,6 +43,7 @@ group:
       openmrs/openmrs-esm-patient-chart
       openmrs/openmrs-esm-patient-communications
       openmrs/openmrs-esm-patient-management
+      openmrs/openmrs-esm-report-builder
       openmrs/openmrs-esm-stock-management
       openmrs/openmrs-esm-system-status
       openmrs/openmrs-esm-template-app
